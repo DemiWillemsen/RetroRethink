@@ -1,0 +1,392 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(208, 198, 186);
+    margin: 0;
+    padding: 0;
+}
+
+/* de header, dus logo en achtergrond*/
+header {
+    background-color: rgb(157, 77, 77);
+}
+
+.RetroRethinkLogo img {
+    width: 27%;
+    margin-left: 8.6em;
+    margin-top: 0.5em;
+}
+
+/* de icoontjes naar andere pagina`s in de nav*/
+.image-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-left: -1.3em;
+    margin-right: 1.4em;
+}
+
+.image-links img {
+    max-width: 90px;
+    height: auto;
+}
+
+nav {
+    background-color: rgb(157, 77, 77);
+    border: 0.3em solid rgb(174, 125, 42);
+}
+/* tot hier */
+
+/* Home pagina tekst */
+.homepagina {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.interieurfoto {
+    width: 9em;
+    height: 15em;
+    float: inline-start;
+    border: 0.3em solid rgb(174, 125, 42);
+    border-radius: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.text-box p {
+    background-color: rgba(157, 77, 77, 0.579);
+    border-radius: 0.5em;
+    margin-left: 3em;
+    font-size: 16px;
+    margin-top: 2em;
+    margin-right: 1em;
+    line-height: 1.2em;
+}
+/* tot hier */
+
+/* home pagina tekst 2 */
+.tasfoto {
+    width: 40%;
+    margin-left: 6.8em;
+    border: 0.3em solid rgb(174, 125, 42);
+    border-radius: 2em;
+    margin-top: 2em;
+}
+
+.tekst1 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(157, 77, 77, 0.579);
+    border-radius: 0.5em;
+    margin: 3em;
+    text-align: center;
+    margin-top: 0.4em;
+    margin-bottom: -0.4em;
+}
+
+.tekst1 p {
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+}
+
+.tekst1 li {
+    margin-left: 6.3em;
+    list-style: none;
+}
+
+.tekst1 img {
+    width: 40%;
+}
+/* tot hier */
+
+/* home pagina tekst 3 */
+.etalagefoto {
+    width: 40%;
+    margin-left: 6.6em;
+    border: 0.3em solid rgb(174, 125, 42);
+    border-radius: 2em;
+    margin-top: 2.5em;
+}
+
+.tekst2 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(157, 77, 77, 0.579);
+    border-radius: 0.5em;
+    margin: 3em;
+    text-align: center;
+    margin-top: 0.4em;
+    margin-bottom: -0.4em;
+}
+
+.tekst2 p {
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+}
+
+.tekst2 li {
+    margin-left: 6.3em;
+    list-style: none;
+}
+
+.tekst2 img {
+    width: 40%;
+    margin-bottom: -2em;
+}
+/* tot hier */
+
+/* info pagina hoofdtekst */
+.infotekst1 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgba(157, 77, 77, 0.579);
+    border-radius: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.infotekst1 p {
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: -1em;
+    margin-bottom: -1.5em;
+    line-height: 1.2em;
+}
+/* tot hier */
+
+/* info foto en tekst 2 */
+.marktfoto {
+    width: 9em;
+    height: 17em;
+    float: inline-start;
+    border: 0.3em solid rgb(174, 125, 42);
+    border-radius: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.infotekst2 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: rgba(157, 77, 77, 0.579);
+    border-radius: 0.5em;
+    margin: 3em;
+    margin-bottom: 0em;
+    margin-right: 1em;
+    line-height: 1.2em;
+}
+
+.infotekst2 p {
+    margin-top: 0.3em;
+    margin-bottom: 2.5em;
+    font-size: 14px;
+    margin-right: 1em;
+    line-height: 1.3em;
+}
+/* tot hier */
+
+/* info foto en tekst 3 */
+.shirtillu {
+    width: 40%;
+    float: inline-end;
+    border-radius: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+}
+
+.rokillu {
+    width: 50%;
+    float: inline-start;
+    border-radius: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 0.7em;
+}
+
+.infotekst3 h2 {
+    background-color: rgba(157, 77, 77, 0.579);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 0.5em;
+    margin-right: 12em;
+    text-align: center;
+    margin-left: 1em;
+    margin-bottom: 1.5em;
+}
+
+.infotekst3 p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: -0.6em;
+}
+
+/* tot hier */
+
+/* ook info pagina, illustraties */
+.illustraties {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2em;
+    margin-bottom: -2em;
+}
+
+.illustraties img {
+    max-width: 100px;
+    height: auto;
+}
+/* tot hier */
+
+/* Alles op outfit pagina */
+.outfithoofdtekst h1 {
+    background-color: rgba(157, 77, 77, 0.579);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    text-align: center;
+}
+
+.outfithoofdtekst p {
+    text-align: center;
+    margin-top: -0.7em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+.outfitpagina {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Tot hier */
+
+/* foto 1 */
+.outfitfoto1 {
+    width: 9em;
+    height: 19em;
+    float: inline-start;
+    border: 0.3em solid rgb(174, 125, 42);
+    border-radius: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.outfit1 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(157, 77, 77, 0.579);
+    border-radius: 0.5em;
+    margin: 3em;
+    font-weight: 900;
+    font-size: 22px;
+    margin-top: 1em;
+    margin-right: 1.5em;
+    margin-bottom: 3em;
+    line-height: 1.2em;
+}
+
+.outfit1 p {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 2em;
+    margin-right: 1em;
+    line-height: 1.2em;
+    margin-bottom: 4em;
+}
+/* tot hier */
+
+/* foto 2 */
+.outfitfoto2 {
+    width: 9em;
+    height: 19em;
+    float: inline-end;
+    border: 0.3em solid rgb(174, 125, 42);
+    border-radius: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.outfit2 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(157, 77, 77, 0.579);
+    border-radius: 0.5em;
+    margin-left: 1.5em;
+    margin-right: 5em;
+    font-weight: 900;
+    text-align: right;
+    font-size: 22px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    line-height: 1.2em;
+}
+
+.outfit2 p {
+    font-weight: 700;
+    text-align: right;
+    font-size: 16px;
+    margin-top: 1em;
+    margin-right: 1.5em;
+    line-height: 1.2em;
+    margin-bottom: 4em;
+}
+/* tot hier */
+
+/* foto 3 */
+.outfitfoto3 {
+    width: 9em;
+    height: 19em;
+    float: inline-start;
+    border: 0.3em solid rgb(174, 125, 42);
+    border-radius: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.outfit3 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(157, 77, 77, 0.579);
+    border-radius: 0.5em;
+    margin: 3em;
+    font-weight: 900;
+    font-size: 22px;
+    margin-top: 1em;
+    margin-right: 1.5em;
+    margin-bottom: 3em;
+    line-height: 1.2em;
+}
+
+.outfit3 p {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 2em;
+    margin-right: 1.5em;
+    line-height: 1.2em;
+    margin-bottom: 4em;
+}
+/* tot hier */
+
+footer {
+    margin-top: 5em;
+    background-color: rgb(157, 77, 77);
+    color: rgb(233, 232, 232);
+    text-align: center;
+    padding: 0.01em;
+    margin-bottom: -2em;
+    line-height: 0.7em;
+    font-size: 12px;
+}
